@@ -3,8 +3,8 @@ uuid = "04ed911b-6d5f-4088-a74e-60d2d5028204"
 version = "1.1.0"
 
 [deps]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -13,11 +13,11 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 
 [compat]
-Distributions = "^0"
 DistributedArrays = "^0"
+Distributions = "^0"
 ProgressMeter = "^0"
 StatsBase = "^0"
-TensorOperations = "^1"
+TensorOperations = "^1, 2.2"
 julia = "^1"
 
 [extras]
